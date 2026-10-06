@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+<style>
+    body{
+         background:lightblue;
+            font-family:Arial;
+        }
+        h1{
+            color:darkblue;
+            font-size:30px;
+            text-align:center;
+        }
+        table {
+            margin:auto;
+            background:white;
+            padding:20px;
+        }
+        td{
+            padding:8px;
+            color:darkgreen;
+            font-size:16px;
+        }
+        input,select,textarea{
+            background:lightyellow;
+            padding:5px;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <form>
+        <table>
+            <tr><td>Name:</td><td><input type="text"></td></tr>
+            <tr><td>Email:</td><td><input type="email"></td></tr>
+            <tr><td>Password:</td><td><input type="Password"></td></tr>
+            <tr><td>Gender:</td>
+            <td>
+               <input type="radio"name="g">Male
+               <input type="radio"name="g">Female
+            </td>
+            </tr>
+            <tr><td>course:</td>
+            <td>
+            <select>
+               <option>BCA</option>
+               <option>B.E</option>
+               <option>MCA</option>
+            </Select>
+            </td>
+            </tr>
+            <tr><td>Skills:</td>
+            <td>
+                <input type="check box">html
+                <input type="check box">CSS
+            </td>
+            </tr>
+            <tr><td>Address:</td><td><textarea>
+            </textarea></td></tr>
+            <tr><td colspan="2"align="center">
+            <input type="submit"value="regiter"></td></tr>
+            <input type="reset"value="clear">
+            </td></tr>
+            </table>
+        </form>
+    </body>
+</html> 
